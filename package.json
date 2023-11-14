@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --ssl --ssl-cert /Users/mykola/.aspnet/https/health-check.pem --ssl-key  /Users/mykola/.aspnet/https/health-check.key",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
